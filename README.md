@@ -27,3 +27,7 @@ Open the local URL printed by Vite. To create and preview a production build:
 npm run build
 npm run preview
 ```
+
+## Deploy to Vercel
+
+Import this GitHub repository in Vercel. The Vercel configuration in this project uses `npm run build` and publishes `dist`. Keep the Vercel Root Directory set to the folder containing this `package.json` (the repository root when this folder is its own repository). The SPA rewrite keeps pages such as `/menu` and `/faq` working when opened directly or refreshed.
